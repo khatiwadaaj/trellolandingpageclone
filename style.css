@@ -4,7 +4,9 @@ body {
   box-sizing: border-box;
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
-
+.h1-main {
+  font-size: 1.9rem;
+}
 .container {
   width: 60%;
   margin: 0 auto;
@@ -54,7 +56,7 @@ body {
   color: rgb(0, 101, 255);
 }
 
-.btn {
+.btn-nav {
   cursor: pointer;
   height: 100%;
   font-size: 1.3rem;
@@ -79,7 +81,7 @@ body {
 .hero-wrapper {
   background: linear-gradient(rgb(234, 230, 255), rgb(255, 255, 255)) no-repeat;
   margin-top: 60px;
-  height: 90vh;
+  height: 65vh;
 }
 .hero-container {
   width: 60%;
@@ -126,16 +128,171 @@ body {
   width: 50%;
   font-size: 1.2rem;
 }
-.btn-signup {
+.btn {
   background-color: rgb(0, 101, 255);
   cursor: pointer;
   font-size: 1rem;
   border: none;
   border-radius: 5px;
-  padding: 10px;
+  height: 50px;
+  padding: 10px 20px;
   color: #fff;
+  font-weight: 550;
 }
 
 .divider-solid {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 0.1px solid rgba(0, 0, 0, 0.2);
+}
+
+.hero-video {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.hero-video-icon {
+  width: 25px;
+  height: 25px;
+  color: blue;
+}
+
+.information-card-container {
+  display: flex;
+  margin: 40px 0;
+}
+.information-card {
+  display: flex;
+}
+
+.information-card-container img {
+  width: 80px;
+  height: 80px;
+}
+
+.information-card-details {
+  padding: 0 0 0 30px;
+}
+
+.information-card-details p,
+.information-card-details button {
+  margin-top: 10px;
+}
+
+.board-info {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.board-info p {
+  font-size: 1.3rem;
+  margin: 20px 0;
+}
+.board-info img {
+  margin: 20px auto;
+  display: block;
+  width: 80%;
+}
+
+.board-info btn {
+  display: block;
+}
+
+.partner-images {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.partner-images img {
+  height: 100px;
+  width: 150px;
+}
+
+.partner-images img:last-child {
+  height: 90px;
+  width: 150px;
+}
+
+.features {
+  margin-top: 30px;
+}
+
+.feature-heading {
+  width: 50%;
+}
+
+.feature-heading h1 {
+  width: 70%;
+}
+.feature-heading p,
+.feature-card-info p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.feature-cards,
+.feature-card {
+  display: flex;
+  margin-top: 30px;
+}
+
+.feature-card-meta {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.feature-card-info {
+  width: 60%;
+}
+
+.feature-card-img {
+  width: 40%;
+  display: block;
+}
+
+.card-1,
+.card-3 {
+  flex-direction: row-reverse;
+}
+
+.btn-learn-more {
+  margin-top: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.btn-learn-more span {
+  padding-right: 10px;
+}
+
+.testimonial-slider-container {
+  background-color: rgb(230, 252, 255);
+}
+.testimonial-slider-wrapper {
+  height: 400px;
+}
+
+.signup-info-wrapper {
+  height: 350px;
+}
+
+.appstore-info-container {
+  height: 100px;
+  background: rgb(247, 246, 246);
+}
+
+footer {
+  background-color: rgb(23, 43, 77);
+  height: 300px;
+}
+
+.footer-divider {
+  border-top: 1pxrem solid white;
+  width: 95%;
+  margin: 0 auto;
 }
